@@ -12,7 +12,7 @@ As a Purdue student who has to commute across campus, deciding whether to walk o
 
 ## Future Plans
 - **Profile Customization:** Edit and delete existing user profiles.
-- **Advanced Decision Logic:** Weighted scoring systems (e.g., weighing rain heavier than wind) instead of basic pass/fail rules.
+- **Advanced Decision Logic:** Weighted scoring systems (weighing rain heavier than wind) instead of basic pass/fail rules.
 - **Route Considerations:** Factor in commute distance and estimated walking time for specific routes.
 - **Class Schedule Integration:** Parse class schedule files to auto-recommend commute plans for each class.
 - **UX & Error Handling:** Colored terminal text outputs (green for walking, red for busing) and graceful error handling for API outages.
