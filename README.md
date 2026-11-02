@@ -14,15 +14,14 @@ As a Purdue student who has to commute across campus, deciding whether to walk o
 - **Profile Customization:** Edit and delete existing user profiles.
 - **Advanced Decision Logic:** Weighted scoring systems (weighing rain heavier than wind) instead of basic pass/fail rules.
 - **Route Considerations:** Factor in commute distance and estimated walking time for specific routes.
-- **Class Schedule Integration:** Parse class schedule files to auto-recommend commute plans for each class.
-- **UX & Error Handling:** Colored terminal text outputs (green for walking, red for busing) and graceful error handling for API outages.
+- **Class Schedule Integration:** Have class schedule files to auto-recommend commute plans for each class.
 
 ## Tech Stack & Dependencies
 - **Language:** Java
 - **API:** [Open-Meteo API] (for fetching real-time weather metrics without requiring API keys)
 - **Built-in Java Libraries:**
   - `java.net.http.HttpClient` – For managing HTTP requests to the Open-Meteo API.
-  - `java.util.Scanner` – For processing command-line user inputs.
-  - `java.io` – For reading and writing persistent profile data.
-  - Java `String` utilities – For parsing raw API responses and formatted text files.
-- **Data Storage:** Local plain text files (`.txt` or ‘.csv’) for lightweight, database-free persistence.# PurdueWeather
+  - `java.util.Scanner` – For processing user inputs.
+  - `java.io` – For reading and writing user data.
+  - Java `String` utilities – For parsing raw API responses and formatted files.
+- **Data Storage:** Local plain text files (`.txt` or ‘.csv’) to store the user data.
